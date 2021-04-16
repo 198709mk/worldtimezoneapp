@@ -34,8 +34,7 @@
 				<cloudHubDeployment>
 					<uri>https://anypoint.mulesoft.com</uri>
 					<username>manju_kaushik_march2021</username>
-					<password>kMa6Dfe007</password>
-					<businessGroup>MuleSoft</businessGroup>
+					<password>kMa6Dfe007</password>					
 					<environment>Sandbox</environment>
 					<workers>1</workers>
 					<workerType>Micro</workerType>
