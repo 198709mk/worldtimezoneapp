@@ -32,13 +32,18 @@
 				<extensions>true</extensions>
 				<configuration>								
 					<cloudHubDeployment>
-						<muleVersion>4.3.0</muleVersion>
+						<muleVersion>${mule.version}</muleVersion>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<username>manju_kaushik_april2021</username>
-						<password>kMa6Dfe007</password>					
-						<environment>Sandbox</environment>
-						<workerType>MICRO</workerType>
-						<applicationName>BangWorldTimeZone</applicationName>
+						
+						<!--  AnyPoint Credentials -->
+						<username>${anypoint.username}</username>
+						<password>${anypoint.password}</password>	
+						
+						<!-- AnyPoint Environment -->				
+						<environment>${anpoint.environment}</environment>
+						<workerType>${anpoint.workerType}</workerType>
+						<workers>${anpoint.workers}</workers>
+						<applicationName>${anpoint.applicationName}</applicationName>
 						<objectStoreV2>true</objectStoreV2>					
 					</cloudHubDeployment>							
 				</configuration>
