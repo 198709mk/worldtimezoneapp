@@ -5,7 +5,7 @@
 
 	<groupId>com.mycompany</groupId>
 	<artifactId>worlddemoapi</artifactId>
-    <version>1.0.0</version>
+    <version>2.0.0</version>
     <packaging>mule-application</packaging>
 	<name>worlddemoapi</name>
 
@@ -15,6 +15,7 @@
 
 		<app.runtime>4.3.0-20210304</app.runtime>
 		<mule.maven.plugin.version>3.4.2</mule.maven.plugin.version>
+		<sonar.sources>/src</sonar.sources>
 	</properties>
 
 	<build>
@@ -33,7 +34,7 @@
 					<cloudHubDeployment>
 						<muleVersion>4.3.0</muleVersion>
 						<uri>https://anypoint.mulesoft.com</uri>
-						<username>manju_kaushik_march2021</username>
+						<username>manju_kaushik_april2021</username>
 						<password>kMa6Dfe007</password>					
 						<environment>Sandbox</environment>
 						<workerType>MICRO</workerType>
@@ -72,7 +73,7 @@
             <name>MuleSoft Releases Repository</name>
             <url>https://repository.mulesoft.org/releases/</url>
             <layout>default</layout>
-        </repository>
+        </repository>       
     </repositories>
     <pluginRepositories>
         <pluginRepository>
