@@ -38,7 +38,7 @@
 						<password>kMa6Dfe007</password>					
 						<environment>Sandbox</environment>
 						<workerType>MICRO</workerType>
-						<applicationName>KaushikBangWorldTimeZone</applicationName>
+						<applicationName>BangWorldTimeZone</applicationName>
 						<objectStoreV2>true</objectStoreV2>					
 					</cloudHubDeployment>							
 				</configuration>
