@@ -80,6 +80,7 @@
             <layout>default</layout>
         </repository>       
     </repositories>
+	
     <pluginRepositories>
         <pluginRepository>
             <id>mulesoft-releases</id>
@@ -91,5 +92,19 @@
             </snapshots>
         </pluginRepository>
     </pluginRepositories>
+	
+	
+	<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-AQBCMGK-releases</name>
+        <url>http://localhost:7081/artifactory/OneWebDEV</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>DESKTOP-AQBCMGK-snapshots</name>
+        <url>http://localhost:7081/artifactory/OneWebDEV</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
